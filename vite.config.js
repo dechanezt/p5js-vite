@@ -11,5 +11,8 @@ module.exports = defineConfig({
         multi: resolve(__dirname, 'multi_sketch.html')
       }
     }
+  },
+  server: {
+    host: true
   }
 })
